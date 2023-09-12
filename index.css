@@ -29,7 +29,7 @@ body{
     margin: 8px 80px;
 }
  .su-detail-hd{
-    color: #2C2C2C;
+    color: #fff;
     margin-bottom: 12px;
 }
 .detail-hd{
@@ -61,7 +61,7 @@ body{
 }
 
 label{
-    color: #2C2C2C;
+    color: #111;
     font-family: Cambria;
     font-size: 13px;
     font-style: normal;
@@ -103,8 +103,8 @@ input{
     gap: 8px;
     flex: 1 0 0;
     border-radius: 5px;
-    border: 1px solid var(--new-pry, #A812C0);
-    background: var(--new-pry, #A812C0);
+    border: 1px solid var(--new-pry, blue);
+    background: var(--new-pry, blue);
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     text-decoration: none;
     margin: 42px 0px 6px 0px;
@@ -116,7 +116,7 @@ input{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: var(--new-pry, #A812C0);
+    background: var(--new-pry, blue);
     border: none;
 }
 .signup-form>p{
@@ -125,7 +125,7 @@ input{
     justify-content: center;
     align-items: flex-start;
     gap: 4px;
-    color: #2C2C2C;
+    color: #111;
     font-family: Cambria;
     font-size: 13px;
     font-style: normal;
@@ -134,7 +134,7 @@ input{
     margin-bottom: 22px;
 }
 .signup-form>p>span{
-    color: #A812C0;
+    color: #220c9e;
     font-weight: 700;
     line-height: normal;
 }
@@ -149,7 +149,7 @@ input{
     gap: 13px;
     align-self: stretch;
     opacity: 0.699999988079071;
-    color: #2C2C2C;
+    color: #fff;
     font-family: Cambria;
     font-size: 13px;
     font-style: normal;

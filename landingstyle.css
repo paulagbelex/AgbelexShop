@@ -9,18 +9,18 @@
 h1{
     font-size: 50px;
     line-height: 64px;
-    color: #222;
+    color: black;
 }
 
 h2 {
     font-size: 46px;
     line-height: 54px;
-    color:#222;
+    color:#252525;
 }
 
 h4 {
     font-size: 20px;
-    color:#222;
+    color:black;
 }
 
 h6 {
@@ -73,19 +73,19 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #2c2c2c;
+    color: #252525;
     transition: 0.3 ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #A812C0;
+    color: #1e12c0;
 }
 
 .logo {
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -94,7 +94,7 @@ body {
 }
 
 .logo>span{
-    color: #2C2C2C;
+    color: #302f2f;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -117,7 +117,7 @@ body {
 .firstpart>.logo{
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -127,7 +127,7 @@ body {
     align-items: center;
 }  
 .firstpart>.logo>span{
-    color: #2C2C2C;
+    color: #252525;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -140,7 +140,7 @@ body {
     align-items: center;
     text-decoration: none;
     flex-basis: 18%;
-    color: #2C2C2C;
+    color: #252525;
     font-family: Cambria;
     font-size: 14px;
     font-style: normal;
@@ -148,16 +148,16 @@ body {
     line-height: normal;
 }
 .firstpart>.home{
-    color: #A812C0;
+    color: #1e12c0;
     font-weight: 700;
 }
 .firstpart>.home:hover{
     align-self: center;
-    border-bottom: 2px solid #A812C0;
+    border-bottom: 2px solid #1e12c0;
 }
 
 #deployment {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(226, 223, 223);
     height: 50vh;
     width: 100%;
     background-position: top 0% right 0;
@@ -178,7 +178,7 @@ body {
 #deployment p {
     width:auto;
     align-items:  center;
-    color: #b8a8a8;
+    color: #2e2929;
 }
 
 #deployment button {
@@ -221,11 +221,11 @@ body {
 }
 
 #productshowcase h1 {
-    color: #A812C0;
+    color: #1e12c0;
 }
 
 #productshowcase button {
-    color:#A812C0;
+    color:#1e12c0;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
@@ -260,7 +260,7 @@ body {
 
 #aboutproject h2 {
     padding-bottom: 15px;
-    color: #A812C0;
+    color: #1e12c0;
 }
 
 .parent {
@@ -289,7 +289,7 @@ body {
     height: 40px;
     flex-shrink: 0;
     border-radius: 29px;
-    border: 0.5px solid #A812C0;
+    border: 0.5px solid #1e12c0;
     margin-right: 136px;
     color: rgba(44, 44, 44, 0.50);
     font-family: Cambria;
@@ -324,7 +324,7 @@ body {
     flex-grow: 0;
 }
 .sectone-intro>.intro-hd{
-    color: #2C2C2C;
+    color: #383838;
     font-family: Campton;
     font-size: 60px;
     font-style: normal;
@@ -334,11 +334,11 @@ body {
     margin: -16px 0px;
 }
 .sectone-intro>.intro-hd>span{
-    color: var(--new-pry, #A812C0);
+    color: var(--new-pry, #1e12c0);
 }
 .sectone-intro>p{
     width: 560px;
-    color: #2C2C2C;
+    color: #383838;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -349,7 +349,7 @@ body {
 .sectone-intro>a{
     padding: 18px 38px;
     border-radius: 8px;
-    background: var(--new-pry, #A812C0);
+    background: var(--new-pry, #1e12c0);
     text-decoration: none;
     color: #FCFCFC;
     font-family: Cambria;
@@ -362,10 +362,13 @@ body {
 .sectone-img{
     flex-basis: 50%;
 }
-.sectone-img>img{
-    width: 100%;
-    height: 580px;
-    flex-shrink: 0;
+.sectone-img > img {
+    width: 500px; /* Set the desired width and height for a circular shape */
+    height: 500px;
+    border-radius: 50%; /* Make the image a circle by setting border-radius to 50% */
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 /* second section */
@@ -373,7 +376,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #F2F2F2;
+    background: #252525;
     padding: 52px 0px;
     align-items: center;
     gap: 32px;
@@ -385,7 +388,7 @@ body {
     width: 85%;
 }
 .two-holder>.two-hd{
-    color: #2C2C2C;
+    color: #252525;
     text-align: center;
     font-family: Campton;
     font-size: 36px;
@@ -396,7 +399,7 @@ body {
     margin-top: 0px;
 }
 .two-holder>.two-para{
-    color: #2C2C2C;
+    color: #252525;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -425,7 +428,7 @@ body {
     flex-shrink: 0;
 }
 .three-holder>.three-hd{
-    color: #2C2C2C;
+    color: black;
     font-family: Campton;
     font-size: 36px;
     font-style: normal;
@@ -434,7 +437,7 @@ body {
     margin-bottom: 20px;
 }
 .three-holder>.three-hd>span{
-    color: var(--new-pry, #A812C0);
+    color: var(--new-pry, #1e12c0);
 }
 .three-first-row{
     display: flex;
@@ -452,7 +455,7 @@ body {
     align-items: center;
     gap: 10px;
     border-radius: 7px;
-    background: var(--new-pry, #A812C0);
+    background: var(--new-pry, #1e12c0);
 }
 .assure{
     width: 153px;
@@ -481,11 +484,11 @@ body {
     padding: 3px 0.25px 4px 9.75px;
     flex-shrink: 0;
     border-radius: 8px;
-    border: 1px solid var(--new-pry, #A812C0);
+    border: 1px solid var(--new-pry, #1e12c0);
     background: #FCFCFC;
 }
 .three-second-row>div>.assure-info{
-    color: #2C2C2C;
+    color: #252525;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -517,7 +520,7 @@ body {
     flex-grow: 0;
 }
 .sectfour-intro>.sectfour-hd{
-    color: #2C2C2C;
+    color: #252525;
     font-family: Campton;
     font-size: 36px;
     font-style: normal;
@@ -527,7 +530,7 @@ body {
     margin-bottom: -26px;
 }
 .sectfour-intro>.sectfour-para{
-    color: #2C2C2C;
+    color: #252525;
     font-family: Campton;
     font-size: 18px;
     font-style: normal;
@@ -559,7 +562,7 @@ body {
 }
 .five-holder>.five-hd{
     align-self: stretch;
-    color: #2C2C2C;
+    color: #252525;
     text-align: center;
     font-family: Campton;
     font-size: 36px;
@@ -569,7 +572,7 @@ body {
     margin-bottom: 20px;
 }
 .five-holder>.five-hd>span{
-    color: var(--new-pry, #A812C0);
+    color: var(--new-pry, #1e12c0);
 }
 .five-second-row{
     display: flex;
@@ -584,7 +587,7 @@ body {
     gap: 12px;
     flex-basis: 28%;
     border-radius: 10px;
-    border: 1px solid #A812C0;
+    border: 1px solid #1e12c0;
     background: #FCFCFC;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
 }
@@ -592,7 +595,7 @@ body {
     margin-bottom: -14px;
 }
 .five-row-cell>.roll-cell-hd{
-    color: var(--secondary-color, #2C2C2C);
+    color: var(--secondary-color, #252525);
     text-align: center;
     font-family: Campton;
     font-size: 24px;
@@ -603,7 +606,7 @@ body {
     width: 153px;
 }
 .five-row-cell>.roll-cell-hd>.row-cell-para{
-    color: #2C2C2C;
+    color: #252525;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -625,7 +628,7 @@ body {
     /* align-items: center; */
 }
 .six-holder>.six-hd{
-    color: #2C2C2C;
+    color: #464545;
     text-align: center;
     font-family: Campton;
     font-size: 36px;
@@ -635,7 +638,7 @@ body {
     margin-bottom: 0px;
 }
 .six-holder>.six-para{
-    color: #2C2C2C;
+    color: #464545;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -644,7 +647,7 @@ body {
     line-height: normal;
 }
 .six-holder>.six-para>span{
-    color: var(--new-pry, #A812C0);
+    color: var(--new-pry, #1e12c0);
 }
 .slide{
     flex-basis: 100%;
@@ -660,7 +663,7 @@ body {
     gap: 10px;
 }
 .slide-one>h3{
-    color: var(--new-pry, #A812C0);
+    color: var(--new-pry, #1e12c0);
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -670,7 +673,7 @@ body {
     margin-bottom: 15px;
 }
 .slide-one>.identity-age{
-    color: #2C2C2C;
+    color: #464545;
     text-align: center;
     font-family: Campton;
     font-size: 16px;
@@ -682,7 +685,7 @@ body {
     width: 209px;
     height: 84px;
     flex-shrink: 0;
-    color: #2C2C2C;
+    color: #464545;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -724,7 +727,7 @@ body {
     flex-grow: 0;
 }
 .sectsev-intro>.intro-hd{
-    color: #2C2C2C;
+    color: #464545;
     font-family: Campton;
     font-size: 36px;
     font-style: normal;
@@ -732,7 +735,7 @@ body {
     line-height: 32px;
 }
 .sectsev-intro>.seven-para{
-    color: #2C2C2C;
+    color: #464545;
     font-family: Campton;
     font-size: 18px;
     font-style: normal;
@@ -745,10 +748,10 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 1px solid var(--new-pry, #A812C0);
+    border: 1px solid var(--new-pry, #1e12c0);
     background: #FCFCFC;
     text-decoration: none;
-    color: #2C2C2C;
+    color: #252525;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -825,7 +828,7 @@ body {
     flex-basis: 45%;
 }
 .eight-two-hd{
-    color: #2C2C2C;
+    color: #f0eded;
     text-align: center;
     font-family: Campton;
     font-size: 36px;
@@ -834,7 +837,7 @@ body {
     line-height: 32px;
 }
 .eight-two-para{
-    color: #2C2C2C;
+    color: #f0eded;
     text-align: center;
     font-family: Campton;
     font-size: 18px;
@@ -876,7 +879,7 @@ body {
     gap: 4px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #A812C0;
+    background: #1e12c0;
     color: #FCFCFC;
     font-family: Campton;
     font-size: 18px;
@@ -907,7 +910,7 @@ footer{
     flex-shrink: 0;
 }
 .footer-one-one>.footer-one-one-hd{
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -915,7 +918,7 @@ footer{
     line-height: 32px;
 }
 .footer-one-one>.footer-one-one-hd>span{
-    color: #2C2C2C;
+    color: #252525;
 }
 .social>a{
     text-decoration: none;
@@ -927,7 +930,7 @@ footer{
     flex-shrink: 0;
 }
 .footer-one-one-para{
-    color: #2C2C2C;
+    color: #252525;
     font-family: DM Sans;
     font-size: 12px;
     font-style: normal;
@@ -936,7 +939,7 @@ footer{
 }
 .footer-one-two-hd{
     text-align: center;
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 18px;
     font-style: normal;
@@ -945,7 +948,7 @@ footer{
 }
 li>a,li,.newsletter-para{
     text-decoration: none;
-    color: #2C2C2C;
+    color: #252525;
     font-family: Campton;
     font-size: 16px;
     font-style: normal;
@@ -996,7 +999,7 @@ footer p {
 footer a {
     font-size: 13px;
     text-decoration: none;
-    color: #222;
+    color: #464545;
     margin-bottom: 10px;
 }
 
@@ -1029,3 +1032,4 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+/* Add CSS rules for the image to fit properly */

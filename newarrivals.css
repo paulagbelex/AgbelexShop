@@ -92,13 +92,13 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #A812C0;
+    color: blue;
 }
 
 .logo {
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color: blue;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -137,7 +137,7 @@ footer{
     flex-shrink: 0;
 }
 .footer-one-one>.footer-one-one-hd{
-    color: #A812C0;
+    color: blue;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -166,7 +166,7 @@ footer{
 }
 .footer-one-two-hd{
     text-align: center;
-    color: #A812C0;
+    color: blue;
     font-family: Campton;
     font-size: 18px;
     font-style: normal;

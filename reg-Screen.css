@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #630A71;;
+    background-color: #5c455f;;
 }
 
 .signincontainer {
@@ -43,7 +43,7 @@ justify-content: center;
 
 
 span{
-    color: #da08fa;
+    color: blue;
 }
 
 .wel {

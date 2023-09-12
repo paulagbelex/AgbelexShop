@@ -9,7 +9,7 @@
 h1{
     font-size: 50px;
     line-height: 64px;
-    color: #222;
+    color: #ebe7e7;
 }
 
 h2 {
@@ -79,7 +79,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #A812C0;
+    color: #1e12c0;
 }
 
 #hero {
@@ -103,11 +103,11 @@ body {
 }
 
 #hero h1 {
-    color: #A812C0;
+    color: #1e12c0;
 }
 
 #hero button {
-    color:#A812C0;
+    color:#1e12c0;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@ body {
 .logo {
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -286,7 +286,7 @@ footer{
     flex-shrink: 0;
 }
 .footer-one-one>.footer-one-one-hd{
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -315,7 +315,7 @@ footer{
 }
 .footer-one-two-hd{
     text-align: center;
-    color: #A812C0;
+    color: #1e12c0;
     font-family: Campton;
     font-size: 18px;
     font-style: normal;
