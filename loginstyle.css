@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 .login-img{
-    background-image: url(image2/m3.png);
+    background-image: url(/assets/login-img.jpeg);
     background-position: right;
     background-size: 170% 100%;
     background-repeat: no-repeat;

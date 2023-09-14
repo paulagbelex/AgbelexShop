@@ -9,8 +9,8 @@ body{
     height: 100vh;
 }
 
-.reg-img{
-    background-image: url(./assets/images/woman-holds-fashion-shopping-bag-beauty_1150-13673.avif);
+.reg-img {
+    background-image: url(/assets/reg-img.jpeg);
     background-position: right;
     background-size: 100% 100%;
     background-repeat: no-repeat;
